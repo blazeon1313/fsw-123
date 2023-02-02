@@ -1,0 +1,17 @@
+* {
+  margin: 5px;
+}
+
+h1 {
+  text-align: left;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+   text-align: left;
+}
