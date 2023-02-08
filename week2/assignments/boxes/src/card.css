@@ -1,0 +1,20 @@
+
+
+* {
+    margin: 10px;
+}
+
+.App {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.hello {
+    justify-content: center;
+}
+
+.info {
+    border-bottom: 1px solid white;
+}
