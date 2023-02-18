@@ -4,13 +4,12 @@
     min-height: 100vh;
     }
     
-    /* Shows each dice in one row */
     .RollDice-container{
     display: flex;
     justify-content: center;
     align-content: center;
     }
-    /* Styling rolldice button */
+
     .RollDice button{
     width:15em;
     padding:1.5em;
@@ -22,7 +21,6 @@
     align-self: center;
     }
     
-    /* Setting hover effect on button */
     .RollDice button:hover{
     cursor: pointer;
     }
