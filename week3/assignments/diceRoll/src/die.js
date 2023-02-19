@@ -1,17 +1,25 @@
-import React, {Component} from 'react'
+//import React, {Component} from 'react'
+import React from 'react';
 import './die.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-// attempt at using fontAwesome
-class Die extends Component{
-    render(){
-	    const {face, rolling} = this.props
-	    return (
-			<div>
-				<FontAwesomeIcon icon={`fa-dice-${face}`} className={`Die ${rolling && 'Die-shaking'}`} />
-			</div >
-		)
-    }
-}
+//Tried this method of using FontAwesome but could not get it to work properly
 
-export default Die
+// class Die extends Component{
+//     render(){
+// 	    const {face, rolling} = this.props
+// 	    return (
+// 			//attempt at using FontAwesome
+// 			<div>
+// 				<FontAwesomeIcon icon={[`fas fa-dice-${face}`]} className={`Die ${rolling && 'Die-shaking'}`} />
+// 			</div >
+// 		)
+//     }
+// }
+
+// used FontAwesome for the Die faces
+const Die =({face, rolling}) => {
+	return <i className={`Die fas fa-dice-${face} ${rolling && "Die-shaking"}`} />
+};
+
+export default Die;
