@@ -14,3 +14,8 @@ li {
   background-color: red;
   color: white;
 }
+
+.error{
+  color: red;
+  font-weight: bolder;
+}
