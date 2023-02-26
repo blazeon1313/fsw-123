@@ -23,7 +23,7 @@ export const todos = [
         isComplete: false
     },
     {
-        text: "Find erros through debugging", 
+        text: "Find errors through debugging", 
         id: uuidv4(), 
         isComplete: false
     },
