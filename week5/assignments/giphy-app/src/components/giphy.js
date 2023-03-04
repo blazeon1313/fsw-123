@@ -1,7 +1,13 @@
 // giphy search for gif
 import React, { useState, useEffect } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGear } from '@fortawesome/free-solid-svg-icons'; 
 
+
+// I tried adding a spinning icon for use while the image loads. 
+// The images load but no loading Icon shows
 function GiphyRequest() {
+    const [loading, setLoading] = useState(true);
     const [search, setSearch] = useState('rose');
     const [imgSrc, setImgSrc] = useState("");
     const [alt, setAlt] = useState("");
@@ -13,8 +19,9 @@ function GiphyRequest() {
         fetch(url)
             .then((res) => res.json())
             .then((data) => {
+                setLoading(false);
                 setImgSrc(data.data[0].images.original.url);
-                setAlt(data.data[0].title)
+                setAlt(data.data[0].title);               
             })
             .catch((error) => console.log(error))
     })
@@ -23,6 +30,7 @@ function GiphyRequest() {
         fetch(url)
         .then((res) => res.json())
         .then((data) => {
+            setLoading(false)
             setImgSrc(data.data[0].images.original.url);
             setAlt(data.data[0].title)
         })
@@ -30,6 +38,7 @@ function GiphyRequest() {
     }
 
     const handleChange = (e) => {
+        e.preventDefault();
         setSearch(e.target.value);
     }
 
@@ -44,7 +53,7 @@ function GiphyRequest() {
             <input id="input" type="text" name="text" value={search} onChange={handleChange} />
             <button id="btn" onClick={handleBtn}>Search</button>
             <div>
-                {imgSrc && <img src={imgSrc} alt={alt}/>}
+                {loading ? (<FontAwesomeIcon icon={faGear} spin />) : (<img src={imgSrc} alt={alt}/>)}
             </div>
         </form>
     );

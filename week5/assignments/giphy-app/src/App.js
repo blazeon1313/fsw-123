@@ -4,13 +4,13 @@ import GiphyRequest from './components/giphy';
 
 function App() {
   return (
-    <div className="App">
-        <div className="header">
-          <h2>Giphy Search App</h2>
-        </div>
-        <div>
-          <GiphyRequest />
-        </div>
+    <div>
+      <div className="header">
+        <h2>Giphy Search App</h2>
+      </div>
+      <div className="App">
+        <GiphyRequest />
+      </div>
     </div>
   );
 }
