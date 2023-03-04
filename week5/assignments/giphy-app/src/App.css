@@ -1,0 +1,52 @@
+* {
+  background-color: forestgreen;
+  margin: 2px;
+}
+
+.App {
+  text-align: center;
+  margin-top: 0px;
+}
+
+img {
+  height: 400px;
+  width: 400px;
+  border-radius: 2rem;
+  border: 0.5rem solid red;
+}
+
+#btn {
+  background-color: gray;
+  margin: 1rem;
+  height: 2rem;
+  border-radius: 0.25rem;
+}
+
+#input {
+  background-color: lightgrey;
+  height: 1.5rem;
+  border-radius: 0.25rem;
+}
+
+.header{
+  display: flexbox;
+  background-color: dodgerblue;
+  border: 0.25rem silid black;
+  height: 4rem;
+  margin-top: 0%;
+  border: 0.25rem solid black;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h2{
+  color:chartreuse;
+  background-color: dodgerblue;
+}
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  text-decoration: underline;
+  font-weight: bold;
+}
