@@ -1,0 +1,50 @@
+*{
+  margin: 5px;
+}
+
+html {
+  background-color: darkseagreen;
+}
+
+.App {
+  text-align: center;
+}
+
+.listBox {
+  display: flexbox;
+  height: auto;
+  width: 800px;
+}
+
+.list {
+  list-style: none;
+}
+
+.deleteBtn {
+  background-color: red;
+  color: white;
+}
+
+.error{
+  color: red;
+  font-weight: bolder;
+}
+
+.updateBtn {
+  background-color: darkmagenta;
+  color: chartreuse;
+}
+
+.cancelBtn {
+  background-color: blue;
+  color: white;
+}
+
+.addBtn {
+  background-color: gray;
+}
+
+.addBtn:hover {
+  background-color: darkgreen;
+  color: white;
+}
