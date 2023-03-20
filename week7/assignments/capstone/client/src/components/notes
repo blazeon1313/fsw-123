@@ -1,0 +1,35 @@
+//youtube api key: AIzaSyC_ljcPBul5WIZdGWoncXg-d159HXWUutY
+
+// "proxy": "http://localhost:9000"
+
+
+// import React from 'react';
+// import MusicVideos from './components/musicVideos';
+
+// const App = () => {
+//   return (
+//     <div>
+//       <MusicVideos genre="country" />
+//       <MusicVideos genre="pop" />
+//       <MusicVideos genre="gospel" />
+//       <MusicVideos genre="rock" />
+//     </div>
+//   );
+// };
+
+// export default App;
+
+// const removeSong = (index) => {
+//     const newSongs = [...songs];
+//     newSongs.splice(index); // Remove the song at the specified index
+//     setSongs(newSongs);
+//   };
+
+//   <ul>
+//   {songs.map((song, index) => (
+//     <li key={index}>
+//       {song}
+//       <button onClick={() => removeSong(index)}>Delete</button>
+//     </li>
+//   ))}
+// </ul>

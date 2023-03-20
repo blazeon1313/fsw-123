@@ -1,0 +1,65 @@
+html {
+  background-color: burlywood;
+}
+
+.videoContainer {
+  margin: 10px;
+  display: inline-block;
+  width: 475px;
+  border-radius: 25px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: darkgrey;
+  padding: 5px;
+  margin-bottom: 10px;
+  height: 3rem;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.search > p {
+  float: left;
+  top: 30%;
+}
+
+.search {
+  position: absolute;
+  top: 30%;
+}
+
+.video-list {
+  background-color: cadetblue;
+  display: inline-block;
+  flex-direction: column;
+  border: 2px solid blue;
+  border-radius: 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.video-thumbnail {
+  border-radius: 25px;
+  float: left;
+}
+
+.addToPlaylist {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: darkgrey;
+  padding: 5px;
+  margin-bottom: 10px;
+  height: 3rem;
+  text-align: center;
+  border-radius: 15px;
+}
