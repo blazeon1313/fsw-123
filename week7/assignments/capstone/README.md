@@ -1,4 +1,4 @@
-# FSW-125 CAPSTONE PROJECT
+# FSW-123 CAPSTONE PROJECT
 
 I created this project with React and Express to use youtube API with the ability to search for music videos, add videos to a play list. When you click on a video thumnail the video opens up in a new window. To use the youtube API I apllied and obtained an API key which aloowed me to use the API data base From Youtube.
 
