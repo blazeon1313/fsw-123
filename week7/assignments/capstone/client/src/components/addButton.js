@@ -18,4 +18,5 @@ function AddButton({ addToPlaylist }) {
   );
 }
 
+//send to songData.js
 export default AddButton;

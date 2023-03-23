@@ -15,7 +15,7 @@ const VideoList = ({ videos }) => {
 
   return (
     <div>
-      <h1>Video List</h1>
+      <h2 className="videoHead">Video List</h2>
     <div className="video-list">
       {renderedVideos}
       {selectedVideo && (
@@ -31,4 +31,5 @@ const VideoList = ({ videos }) => {
   );
 };
 
+// send to App.js
 export default VideoList;

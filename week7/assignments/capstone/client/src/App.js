@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
+
+
 import SearchBar from './components/search';
 import VideoList from './components/videoList';
-import Playlist from './components/playList';
+//import SongList from './components/songData';
+
 import './App.css'
 
 const App = () => {
@@ -19,11 +22,11 @@ const App = () => {
 
   return (
     <div>
-      <h1>Youtube React App</h1>
+      <h1 className="head">Youtube React App</h1>        
+      {/* <SongList /> */}
       <div>
         <SearchBar onSearch={handleSearch} />
       </div>
-        <Playlist />
       { /*<ul>
         {playlist.map((video) => (
           <li key={video.id}>{video.title}</li>
@@ -36,4 +39,5 @@ const App = () => {
   );
 };
 
+//send to index.js
 export default App;

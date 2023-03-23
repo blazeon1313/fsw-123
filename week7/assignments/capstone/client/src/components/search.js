@@ -39,4 +39,5 @@ const SearchBar = ({ onSearch }) => {
   );
 };
 
+//send to App.js
 export default SearchBar;

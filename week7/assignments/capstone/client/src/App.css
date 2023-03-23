@@ -2,16 +2,92 @@ html {
   background-color: burlywood;
 }
 
+.songs {
+  background-color: teal;
+  opacity: 0.9;
+  width: 600px;
+  margin: 2px;
+  display: inline-block;
+  border-top: solid 1px #000;
+}
+
+.songs > p {
+  margin: 0px;
+  margin-top: 5px;
+}
+
+.songs > p.artist {
+  width: 300px;
+  float: left;
+  text-align: center;
+  font-weight: bold;
+}
+
+.songs > p.title {
+  margin-left: 10px;
+  width: 175px;
+  float: left;
+  text-align: left;
+  font-weight: bold;
+}
+
+.songs > p.genre {
+  margin-left: 10px;
+  width: 125px;
+  float: left;
+  text-align: left;
+}
+
+.songs > p.buttons {
+  width: 100px;
+  float: left;
+  text-align: left;
+  font-weight: bold;
+}
+
+.itemContainer {
+  display: flexbox;
+  background-color: coral;
+  padding: 10px;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  justify-content: space-evenly;
+  position: relative; 
+}
+
 .videoContainer {
   margin: 10px;
   display: inline-block;
   width: 475px;
   border-radius: 25px;
+  align-items: flex-start;
 }
 
-h1 {
+.musicAdd {
+  display: flex;
+  justify-content: center;
+}
+
+.head {
+  background-color: blue;
+  color: lime;
   text-align: center;
   font-size: 3rem;
+  text-decoration: underline;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.videoHead {
+  text-align: center;
+  font-size: 2rem;
   text-decoration: underline;
 }
 
@@ -44,7 +120,7 @@ h1 {
   border: 2px solid blue;
   border-radius: 25px;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .video-thumbnail {

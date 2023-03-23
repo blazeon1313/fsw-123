@@ -1,7 +1,8 @@
 import React from 'react';
 //import VideoData from './videoData';
+//import AddButton from './addButton';
 
-const VideoItem = ({ video, props }) => {
+const VideoItem = ({ video }) => {
   const onVideoClick = () => {
     const videoId = video.id.videoId;
     const videoUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
@@ -27,8 +28,8 @@ const VideoItem = ({ video, props }) => {
                   </li>
                   ))}
                   </ul> */}
-            </div>
-            
+            </div> 
+           {/* <AddButton /> */} 
         </div>
     </div>
   );
