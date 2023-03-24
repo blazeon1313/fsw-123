@@ -63,7 +63,7 @@ I ran into many challenges while making this project. As the errors and walls ca
 2. Getting my search bar to actueally bring up what I was searching for.
     - I worked through this challenge by trial and error with hardcoding to being able to actually enter text into the search box. Once that was figured out I then worked on my onSubmit to populate the list.
 3. Once I was able to get the video list to populate the videos were not opening in a new window. 
-    - This challenge I did a google search on how to open the videos in a popup window. There were numerous examples which I tried a binch of them until I got one that worked for what I was wanting.
+    - This challenge I did a google search on how to open the videos in a popup window. There were numerous examples which I tried a bunch of them until I got one that worked for what I was wanting.
 4. My current challenge is populating a playlist by adding videos to it I have an edit and delete button on the playlist items but I have not figured out how to make the videos play from the playlist itself.
     - This challenge is still pending
 5. Using two different databases for the app
