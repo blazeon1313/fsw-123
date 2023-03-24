@@ -67,4 +67,4 @@ I ran into many challenges while making this project. As the errors and walls ca
 4. My current challenge is populating a playlist by adding videos to it I have an edit and delete button on the playlist items but I have not figured out how to make the videos play from the playlist itself.
     - This challenge is still pending
 5. Using two different databases for the app
-    - This challenge I just ended up using one database
+    - This challenge I had som minor errors in my code as I went through the backend I found an error in my delete method and my put method now my page uses two different backends. I used Youtube for my videos and then used exrpess for my songlist.

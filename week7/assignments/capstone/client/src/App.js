@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 import SearchBar from './components/search';
 import VideoList from './components/videoList';
-//import SongList from './components/songData';
+import SongList from './components/songData';
 
 import './App.css'
 
@@ -23,7 +23,7 @@ const App = () => {
   return (
     <div>
       <h1 className="head">Youtube React App</h1>        
-      {/* <SongList /> */}
+      <SongList />
       <div>
         <SearchBar onSearch={handleSearch} />
       </div>

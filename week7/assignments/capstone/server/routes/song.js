@@ -104,9 +104,9 @@ songRouter
 // Delete ( Delete movie from list )
     // METHOD = DELETED |  http://localhost:9000/songs/:id
     .delete('/:songsId', (req, res) => {
-        const songsId = req.params.itemId;
+        const songsId = req.params.songsId;
         const songIndex = songs.findIndex(song => song.id === songsId);
-        movies.splice(songIndex, 1)
+        songs.splice(songIndex, 1)
 
         res.status(200).send(`Song sucessfully Deleted!!`)
     })
@@ -114,8 +114,8 @@ songRouter
 // Put
     // METHOD = PUT | http://localhost:9000/songs/:id
     .put('/:songsId', (req, res) => {
-        const songsId = req.params.movieId;
-        const itemIndex = songs.findIndex(item => item.id === songsId);
+        const songId = req.params.songsId;
+        const itemIndex = songs.findIndex(item => item.id === songId);
         Object.assign(songs[itemIndex], req.body);
 
         res.status(201).send(songs[itemIndex]);
